@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: url("/img/1200px-Central_Range.jpeg");
+}
+
+li {
+  list-style: none;
+}
+
+nav ul {
+  width: 100%;
+  position: absolute;
+  top: 2%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+nav li {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px grey;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  line-height: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: unset;
+  background-color: teal;
+  cursor: pointer;
+}
+
+nav li:hover {
+  border: 2px solid wheat;
+}
+
+main {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  top: 10%;
+}
+
+main ul {
+  padding: 0;
+  width: 180px;
+  height: 300px;
+  border-radius: 30px;
+  box-shadow: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightblue;
+}
+
+main img {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+
+main div {
+  width: 20px;
+  height: 100px;
+  border-radius: 5px;
+  box-shadow: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: cornflowerblue;
+  transform: translateX(-250%);
+  opacity: 0.8;
+}
+
+main li {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  line-height: 30px;
+  transform: translateY(-350%);
+}/*# sourceMappingURL=weather.css.map */
